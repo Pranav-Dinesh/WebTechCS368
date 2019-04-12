@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE library SYSTEM "library.dtd">
+<library>
+  <book>
+    <title>ABC</title>
+    <author>dhjshdj</author>
+    <author>&extra;</author>
+    <publisher>fjdhfjdhf</publisher>
+    <cover type="paperback"/>
+    <category class="fiction"/>
+  </book>
+</library>
