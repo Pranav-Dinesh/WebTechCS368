@@ -1,0 +1,9 @@
+<!ELEMENT book (title, author, publisher, cover, category)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT cover EMPTY>
+  <!ATTLIST cover type (hardback | paperback) "paperback" #REQUIRED>
+<!ELEMENT category EMPTY>
+  <!ATTLIST category class (FICTION | NONFICTION) "fiction" #REQUIRED>
+<!ENTITY extra "and additional authors">
